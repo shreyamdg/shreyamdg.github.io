@@ -19,7 +19,7 @@
                                     {{ e.gpa ? "(" + e.gpa + ")" : "" }}
                                 </div>
                                 <div class="px-2 date">{{ e.date }}</div>
-                                <div class="px-2 pb-2 pt-2" style="text-align: justify;">
+                                <div class="px-2 pb-2 pt-2">
                                     <ul>
                                         <li class="px-2 pb-2 pt-2" v-for="(point, i) in e.description" :key="i">{{ point
                                             }}</li>

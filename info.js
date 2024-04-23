@@ -4,7 +4,7 @@ import pictureBlack from '@/assets/potrait-black.png'
 
 let info = {
   name: 'Shreyam Dutta Gupta',
-  logo_name: 'SDG',
+  logo_name: 'S.D.G',
   flat_picture: picture,
   white_picture: pictureWhite,
   black_picture: pictureBlack,
