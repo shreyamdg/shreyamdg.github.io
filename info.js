@@ -23,7 +23,8 @@ let info = {
   links: {
     linkedin: 'https://www.linkedin.com/in/shreyamdg/',
     github: 'https://github.com/shreyamdg',
-    resume: ''
+    resume:
+      'https://github.com/shreyamdg/shreyamdg.github.io/blob/main/src/assets/resume/Shreyam_Resume.pdf'
   },
   education: [
     {
