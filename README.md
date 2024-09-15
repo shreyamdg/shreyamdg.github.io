@@ -2,7 +2,7 @@
 
 This repository contains the codebase for a portfolio website built using Vue.js and Vite.
 
-## Scripts
+## Scripts:
 
 - `dev`: Start the development server using Vite.
 - `build`: Build the production-ready code using Vite.
@@ -10,7 +10,7 @@ This repository contains the codebase for a portfolio website built using Vue.js
 - `lint`: Lint the codebase using ESLint with Vue.js rules.
 - `format`: Format the codebase using Prettier.
 
-## Usage
+## Usage:
 
 1. Clone the repository.
 2. Install dependencies using `npm install`.
