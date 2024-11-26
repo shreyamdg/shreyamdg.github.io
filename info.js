@@ -14,12 +14,11 @@ let info = {
       blur: false
     }
   },
-  description: `I bring extensive experience as a Full Stack Developer, driven by a fervor for architecting resilient, scalable solutions. 
-  Proficient in API development, I excel in crafting and sustaining highly scalable, available, and mission-critical services. 
-  My expertise extends to creating intuitive UI components and web interfaces, enriching user interactions. 
-  With a comprehensive grasp of software development stages—from ideation and architecture to swift prototyping—I offer a holistic approach to projects. 
-  Currently, I am actively pursuing opportunities in full-stack development, ready to contribute immediately and open to relocation, 
-  eager to apply my skills in shaping innovative and efficient software solutions.`,
+  description: `I am a Software Engineer specializing in Full Stack Development and AI-powered solutions, with a passion for architecting scalable and innovative applications. Proficient in backend technologies like Java, Spring Boot, REST APIs, and event-driven architectures with Kafka, I excel at building mission-critical, high-availability systems. On the frontend, I craft responsive and intuitive UIs using modern frameworks like ReactJS and VueJS, ensuring seamless user experiences.
+
+My expertise extends to integrating cutting-edge AI technologies, including Generative AI, Natural Language Processing (NLP), and Conversational AI. At SAP, I contribute to building Joule, an AI-powered digital assistant for SAP Business AI, leveraging LLMs and advanced NLP techniques to enhance user interactions with enterprise systems.
+
+With experience in cloud-native development on platforms like SAP BTP and Cloud Foundry, I ensure robust performance and scalability for enterprise applications. My work spans the entire software development lifecycle—from ideation and architecture to prototyping and deployment—combining full-stack development expertise with a strong focus on AI-driven innovation.`,
   links: {
     linkedin: 'https://www.linkedin.com/in/shreyamdg/',
     github: 'https://github.com/shreyamdg',
@@ -69,9 +68,35 @@ let info = {
   ],
   experience: [
     {
+      name: 'SAP Labs',
+      place: 'Palo Alto, CA',
+      date: 'May, 2024 - Present',
+      position: 'Software Developer',
+      description: [
+        'Contributed to the development of Joule, an AI-powered digital assistant for SAP Business AI, leveraging Generative AI and NLP technologies to enhance ERP user interactions.',
+        'Architected backend solutions using Java, Spring Boot, and Kafka for event-driven systems, ensuring scalability and fault tolerance in critical enterprise applications.',
+        'Designed and implemented intuitive UIs for Joule’s conversational features using React, Redux, and JavaScript, enabling seamless real-time user interactions with SAP systems.',
+        'Architected streaming protocol for text and rich UI elements for Joule using WebSockets, replacing long polling to streamline the user experience and reduce latency.',
+        'Collaborated with cross-functional teams to optimize the conversational flow and integrate dynamic AI-generated content for seamless interactions in enterprise systems.'
+      ],
+      skills: [
+        'Java',
+        'SpringBoot',
+        'Kafka',
+        'WebSocket',
+        'React',
+        'Redux',
+        'JavaScript',
+        'Generative AI',
+        'NLP',
+        'SAP BTP',
+        'Cloud Foundry'
+      ]
+    },
+    {
       name: 'SAP Concur',
       place: 'Salt Lake City, UT',
-      date: 'Mar, 2022 - Present',
+      date: 'Mar, 2022 - Apr, 2024',
       position: 'Senior Developer',
       description: [
         'Optimized Payments Microservice using Java, SpringBoot, TypeScript, and Nest.js, improving processing speed by 30% and reducing errors by 20%. Integrated advanced monitoring with Kibana, PagerDuty, and New Relic.',
@@ -159,17 +184,17 @@ let info = {
   skills: [
     {
       title: 'languages',
-      info: ['Java', 'Javascript', 'TypeScript', 'Python', 'C++', 'SQL', 'VBScript'],
+      info: ['Java', 'JavaScript', 'TypeScript', 'Python', 'C++', 'SQL', 'VBScript'],
       icon: 'fa fa-code'
     },
     {
       title: 'backend frameworks',
-      info: ['Spring', 'Hibernate', 'Nest.js', 'Flask'],
+      info: ['SpringBoot', 'Hibernate', 'Nest.js', 'Flask'],
       icon: 'fa fa-cubes'
     },
     {
       title: 'web technologies',
-      info: ['Vue', 'React', 'Redux', 'Node', 'HTML', 'CSS', 'Bootstrap', 'GraphQL', 'Storybook,'],
+      info: ['Vue', 'React', 'Redux', 'Node', 'HTML', 'CSS', 'Bootstrap', 'GraphQL', 'Storybook'],
       icon: 'fas fa-laptop-code'
     },
     {
@@ -183,7 +208,9 @@ let info = {
         'B/G',
         'Kibana',
         'New Relic',
-        'PagerDuty'
+        'PagerDuty',
+        'Cloud Foundry',
+        'SAP BTP'
       ],
       icon: 'fa fa-server'
     },
@@ -207,6 +234,34 @@ let info = {
         'AWS S3'
       ],
       icon: 'fas fa-tools'
+    },
+    {
+      title: 'ai technologies',
+      info: [
+        'Generative AI',
+        'NLP',
+        'GPT-4',
+        'Conversational AI',
+        'LLMs',
+        'Text Streaming Protocols',
+        'Prompt Engineering',
+        'RAG (Retrieval-Augmented Generation)'
+      ],
+      icon: 'fas fa-brain'
+    },
+    {
+      title: 'data science tools & frameworks',
+      info: [
+        'Pandas',
+        'NumPy',
+        'Matplotlib',
+        'Scikit-learn',
+        'TensorFlow',
+        'Keras',
+        'OpenAI API',
+        'SQL for Data Analysis'
+      ],
+      icon: 'fas fa-chart-line'
     }
   ]
 }
