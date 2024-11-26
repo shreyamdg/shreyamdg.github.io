@@ -22,8 +22,6 @@ With experience in cloud-native development on platforms like SAP BTP and Cloud 
   links: {
     linkedin: 'https://www.linkedin.com/in/shreyamdg/',
     github: 'https://github.com/shreyamdg',
-    resume:
-      'https://github.com/shreyamdg/shreyamdg.github.io/blob/main/src/assets/resume/Shreyam_Resume.pdf'
   },
   education: [
     {
@@ -262,6 +260,19 @@ With experience in cloud-native development on platforms like SAP BTP and Cloud 
         'SQL for Data Analysis'
       ],
       icon: 'fas fa-chart-line'
+    },
+    {
+      title: 'testing & quality assurance',
+      info: [
+        'JUnit',
+        'Karate',
+        'Postman',
+        'React Testing Library',
+        'Jest',
+        'Mocha',
+        'Chai',
+      ],
+      icon: 'fas fa-vial'
     }
   ]
 }
